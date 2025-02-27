@@ -2,15 +2,15 @@
 
 ## Overview
 
-This project implements clustering algorithms (K-means and Hierarchical Clustering) to analyze and group blogs from a dataset containing 99 blogs. The goal is to explore similarities among the blogs using Pearson similarity and visualise the clustering results in an interactive format.
+This project implements clustering algorithms (K-means and Hierarchical Clustering) to analyse and group blogs from a dataset containing 99 blogs. The goal is to explore similarities among the blogs using Pearson similarity and visualise the clustering results in an interactive format.
 
 The system supports:
 
 * K-means Clustering with configurable stopping criteria
-* Hierarchical Clustering with tree-based visualization
+* Hierarchical Clustering with tree-based visualisation
 * RESTful API for server-client interaction
 
-This project is suitable for educational and practical purposes in data clustering and visualization.
+This project is suitable for educational and practical purposes in data clustering and visualisation.
 
 ## Features
 
@@ -26,7 +26,7 @@ This project is suitable for educational and practical purposes in data clusteri
 3. RESTful API:
 * Allows clients to send clustering requests.
 * Returns JSON-formatted results to be rendered in a client-side GUI.
-4. Frontend Visualization:
+4. Frontend Visualisation:
 * Displays K-means results as cluster lists.
 * Visualises Hierarchical Clustering results as an interactive tree.
 
@@ -109,17 +109,17 @@ http://localhost:3000
   * View the cluster assignments in the frontend.
 * Run Hierarchical Clustering:
   * Submit a POST request to /hierarchical.
-  * Explore the interactive tree visualization in the frontend.
+  * Explore the interactive tree visualisation in the frontend.
 
 ## Test Cases
 ### K-means
 
-K-means may yield different results between runs due to random initialization. Example output:
+K-means may yield different results between runs due to random initialisation. Example output:
 
 
 ### Hierarchical
 
-Hierarchical clustering produces deterministic results. Example tree visualization:
+Hierarchical clustering produces deterministic results. Example tree visualisation:
 
 
 ## Contributing
